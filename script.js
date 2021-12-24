@@ -31,3 +31,5 @@ function positiveSum(arr) {
 console.log(positiveSum([-1, -4, 7, 12]));
 
 console.log(positiveSum([-1, -4, 7, 12]));
+
+HelloWorld;
