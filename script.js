@@ -32,4 +32,12 @@ console.log(positiveSum([-1, -4, 7, 12]));
 
 console.log(positiveSum([-1, -4, 7, 12]));
 
-HelloWorld;
+//Total pressure calculation
+
+let solution = (molarMass1, molarMass2, givenMass1, givenMass2, volume, temp) =>
+  ((givenMass1 / molarMass1 + givenMass2 / molarMass2) *
+    0.082 *
+    (temp + 273.15)) /
+  volume;
+console.log(solution(44, 30, 3, 2, 5, 50));
+console.log(solution(60, 20, 10, 30, 10, 100));
