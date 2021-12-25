@@ -41,3 +41,10 @@ let solution = (molarMass1, molarMass2, givenMass1, givenMass2, volume, temp) =>
   volume;
 console.log(solution(44, 30, 3, 2, 5, 50));
 console.log(solution(60, 20, 10, 30, 10, 100));
+
+function warnTheSheep(queue) {
+  const position = queue.reverse().indexOf('wolf');
+  return position === 0
+    ? 'Pls go away and stop eating my sheep'
+    : `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`;
+}
