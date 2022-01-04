@@ -66,3 +66,16 @@
 // function makeNegative(num) {
 //   return -Math.abs(num);
 // }
+
+////////change all "T" to "U"///////////////
+// function DNAtoRNA(dna) {
+//   const x = dna;
+//   const re = /T/g;
+//   return x.replace(re, 'U');
+// }
+// console.log(DNAtoRNA('UTTT'));
+
+// ///////DRY////////
+// function DNAtoRNA(dna) {
+//   return dna.replace(/T/g, 'U');
+// }
