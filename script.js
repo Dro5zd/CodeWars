@@ -87,11 +87,26 @@
 // multiply(45);
 
 //////evenOrOdd///////////
-function even_Or_Odd(number) {
-  if (number % 2 === 0) {
-    return 'Even';
-  } else {
-    return 'Odd';
-  }
-}
-console.log(even_Or_Odd(23));
+// function even_Or_Odd(number) {
+//   if (number % 2 === 0) {
+//     return 'Even';
+//   } else {
+//     return 'Odd';
+//   }
+// }
+// console.log(even_Or_Odd(23));
+
+// //////////trueYesFalseNo///////////////
+// function boolToWord(bool) {
+//   if (bool) {
+//     return 'Yes';
+//   } else {
+//     return 'No';
+//   }
+// }
+
+// //////DRY////////
+
+// function boolToWord( bool ){
+//   return bool ? 'Yes':'No';
+// }
