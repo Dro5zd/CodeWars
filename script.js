@@ -80,8 +80,18 @@
 //   return dna.replace(/T/g, 'U');
 // }
 
-function multiply(number) {
-  const x = Math.abs(number).toString().length;
-  return number * 5 ** x;
+// function multiply(number) {
+//   const x = Math.abs(number).toString().length;
+//   return number * 5 ** x;
+// }
+// multiply(45);
+
+//////evenOrOdd///////////
+function even_Or_Odd(number) {
+  if (number % 2 === 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
 }
-multiply(45);
+console.log(even_Or_Odd(23));
