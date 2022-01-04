@@ -61,3 +61,8 @@
 //   }
 // }
 // console.log(makeNegative(0));
+
+///////alternative//////////
+// function makeNegative(num) {
+//   return -Math.abs(num);
+// }
