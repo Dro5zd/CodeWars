@@ -79,3 +79,9 @@
 // function DNAtoRNA(dna) {
 //   return dna.replace(/T/g, 'U');
 // }
+
+function multiply(number) {
+  const x = Math.abs(number).toString().length;
+  return number * 5 ** x;
+}
+multiply(45);
