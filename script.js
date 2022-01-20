@@ -111,19 +111,36 @@
 //   return bool ? 'Yes':'No';
 // }
 
-////////fizzbuzz////////
-function fizzbuzz(n) {
-  let exp = [];
-  for (let i = 1; i <= n; i++) {
-    if (i % 15 === 0) {
-      exp.push('FizzBuzz');
-    } else if (i % 5 === 0) {
-      exp.push('Buzz');
-    } else if (i % 3 === 0) {
-      exp.push('Fizz');
-    } else {
-      exp.push(i);
-    }
-  }
-  return exp;
+// ////////fizzbuzz////////
+// function fizzbuzz(n) {
+//   let exp = [];
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 15 === 0) {
+//       exp.push('FizzBuzz');
+//     } else if (i % 5 === 0) {
+//       exp.push('Buzz');
+//     } else if (i % 3 === 0) {
+//       exp.push('Fizz');
+//     } else {
+//       exp.push(i);
+//     }
+//   }
+//   return exp;
+// }
+
+function swap(string) {
+  return ['a', 'e', 'i', 'o', 'u'].indexOf(string.toUpperCase());
 }
+console.log(swap('Sunday', 'SUndAy'));
+function stringToArray (string){
+  return console.log(string.split (' '));
+}
+
+stringToArray ("Robin Singh")
+
+
+function fakeBin(x){
+  return console.log(x.split('').map(i => i < 5 ? 0 : 1).join());
+}
+
+fakeBin('453815529130107884358068')
